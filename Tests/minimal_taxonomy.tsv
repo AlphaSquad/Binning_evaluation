@@ -1,0 +1,54 @@
+#TaxID	Lineage
+2	superkingdom	2	Bacteria	
+1224	superkingdom	2	Bacteria	phylum	1224	Proteobacteria	
+200795	superkingdom	2	Bacteria	phylum	200795	Chloroflexi	
+544448	superkingdom	2	Bacteria	phylum	544448	Tenericutes	
+201174	superkingdom	2	Bacteria	phylum	201174	Actinobacteria	
+976	superkingdom	2	Bacteria	phylum	976	Bacteroidetes	
+1239	superkingdom	2	Bacteria	phylum	1239	Firmicutes	
+28211	superkingdom	2	Bacteria	phylum	1224	Proteobacteria	class	28211	Alphaproteobacteria	
+388447	superkingdom	2	Bacteria	phylum	200795	Chloroflexi	class	388447	Ktedonobacteria	
+31969	superkingdom	2	Bacteria	phylum	544448	Tenericutes	class	31969	Mollicutes	
+1760	superkingdom	2	Bacteria	phylum	201174	Actinobacteria	class	1760	Actinobacteria	
+1236	superkingdom	2	Bacteria	phylum	1224	Proteobacteria	class	1236	Gammaproteobacteria	
+117743	superkingdom	2	Bacteria	phylum	976	Bacteroidetes	class	117743	Flavobacteriia	
+117747	superkingdom	2	Bacteria	phylum	976	Bacteroidetes	class	117747	Sphingobacteriia	
+28216	superkingdom	2	Bacteria	phylum	1224	Proteobacteria	class	28216	Betaproteobacteria	
+91061	superkingdom	2	Bacteria	phylum	1239	Firmicutes	class	91061	Bacilli	
+2037	superkingdom	2	Bacteria	phylum	201174	Actinobacteria	class	1760	Actinobacteria	order	2037	Actinomycetales	
+1385	superkingdom	2	Bacteria	phylum	1239	Firmicutes	class	91061	Bacilli	order	1385	Bacillales	
+204455	superkingdom	2	Bacteria	phylum	1224	Proteobacteria	class	28211	Alphaproteobacteria	order	204455	Rhodobacterales	
+388448	superkingdom	2	Bacteria	phylum	200795	Chloroflexi	class	388447	Ktedonobacteria	order	388448	Ktedonobacterales	
+186332	superkingdom	2	Bacteria	phylum	544448	Tenericutes	class	31969	Mollicutes	order	186332	Anaeroplasmatales	
+85006	superkingdom	2	Bacteria	phylum	201174	Actinobacteria	class	1760	Actinobacteria	order	85006	Micrococcales	
+135614	superkingdom	2	Bacteria	phylum	1224	Proteobacteria	class	1236	Gammaproteobacteria	order	135614	Xanthomonadales	
+200644	superkingdom	2	Bacteria	phylum	976	Bacteroidetes	class	117743	Flavobacteriia	order	200644	Flavobacteriales	
+200666	superkingdom	2	Bacteria	phylum	976	Bacteroidetes	class	117747	Sphingobacteriia	order	200666	Sphingobacteriales	
+80840	superkingdom	2	Bacteria	phylum	1224	Proteobacteria	class	28216	Betaproteobacteria	order	80840	Burkholderiales	
+31989	superkingdom	2	Bacteria	phylum	1224	Proteobacteria	class	28211	Alphaproteobacteria	order	204455	Rhodobacterales	family	31989	Rhodobacteraceae	
+768649	superkingdom	2	Bacteria	phylum	200795	Chloroflexi	class	388447	Ktedonobacteria	order	388448	Ktedonobacterales	family	768649	Thermosporotrichaceae	
+186333	superkingdom	2	Bacteria	phylum	544448	Tenericutes	class	31969	Mollicutes	order	186332	Anaeroplasmatales	family	186333	Anaeroplasmataceae	
+85021	superkingdom	2	Bacteria	phylum	201174	Actinobacteria	class	1760	Actinobacteria	order	85006	Micrococcales	family	85021	Intrasporangiaceae	
+32033	superkingdom	2	Bacteria	phylum	1224	Proteobacteria	class	1236	Gammaproteobacteria	order	135614	Xanthomonadales	family	32033	Xanthomonadaceae	
+49546	superkingdom	2	Bacteria	phylum	976	Bacteroidetes	class	117743	Flavobacteriia	order	200644	Flavobacteriales	family	49546	Flavobacteriaceae	
+563835	superkingdom	2	Bacteria	phylum	976	Bacteroidetes	class	117747	Sphingobacteriia	order	200666	Sphingobacteriales	family	563835	Chitinophagaceae	
+75682	superkingdom	2	Bacteria	phylum	1224	Proteobacteria	class	28216	Betaproteobacteria	order	80840	Burkholderiales	family	75682	Oxalobacteraceae	
+29580	superkingdom	2	Bacteria	phylum	1224	Proteobacteria	class	28216	Betaproteobacteria	order	80840	Burkholderiales	family	75682	Oxalobacteraceae	genus	29580	Janthinobacterium	
+205889	superkingdom	2	Bacteria	phylum	1224	Proteobacteria	class	28211	Alphaproteobacteria	order	204455	Rhodobacterales	family	31989	Rhodobacteraceae	genus	205889	Albidovulum	
+768650	superkingdom	2	Bacteria	phylum	200795	Chloroflexi	class	388447	Ktedonobacteria	order	388448	Ktedonobacterales	family	768649	Thermosporotrichaceae	genus	768650	Thermosporothrix	
+265	superkingdom	2	Bacteria	phylum	1224	Proteobacteria	class	28211	Alphaproteobacteria	order	204455	Rhodobacterales	family	31989	Rhodobacteraceae	genus	265	Paracoccus	
+2086	superkingdom	2	Bacteria	phylum	544448	Tenericutes	class	31969	Mollicutes	order	186332	Anaeroplasmatales	family	186333	Anaeroplasmataceae	genus	2086	Anaeroplasma	
+99479	superkingdom	2	Bacteria	phylum	201174	Actinobacteria	class	1760	Actinobacteria	order	85006	Micrococcales	family	85021	Intrasporangiaceae	genus	99479	Tetrasphaera	
+2370	superkingdom	2	Bacteria	phylum	1224	Proteobacteria	class	1236	Gammaproteobacteria	order	135614	Xanthomonadales	family	32033	Xanthomonadaceae	genus	2370	Xylella	
+363408	superkingdom	2	Bacteria	phylum	976	Bacteroidetes	class	117743	Flavobacteriia	order	200644	Flavobacteriales	family	49546	Flavobacteriaceae	genus	363408	Nonlabens	
+1097466	superkingdom	2	Bacteria	phylum	1224	Proteobacteria	class	28211	Alphaproteobacteria	order	204455	Rhodobacterales	family	31989	Rhodobacteraceae	genus	1097466	Defluviimonas	
+1004300	superkingdom	2	Bacteria	phylum	976	Bacteroidetes	class	117747	Sphingobacteriia	order	200666	Sphingobacteriales	family	563835	Chitinophagaceae	genus	1004300	Hydrotalea	
+990712	superkingdom	2	Bacteria	phylum	1224	Proteobacteria	class	28211	Alphaproteobacteria	order	204455	Rhodobacterales	family	31989	Rhodobacteraceae	genus	205889	Albidovulum	species	990712	Albidovulum xiamenense	
+644383	superkingdom	2	Bacteria	phylum	200795	Chloroflexi	class	388447	Ktedonobacteria	order	388448	Ktedonobacterales	family	768649	Thermosporotrichaceae	genus	768650	Thermosporothrix	species	644383	Thermosporothrix hazakensis	
+266	superkingdom	2	Bacteria	phylum	1224	Proteobacteria	class	28211	Alphaproteobacteria	order	204455	Rhodobacterales	family	31989	Rhodobacteraceae	genus	265	Paracoccus	species	266	Paracoccus denitrificans	
+2088	superkingdom	2	Bacteria	phylum	544448	Tenericutes	class	31969	Mollicutes	order	186332	Anaeroplasmatales	family	186333	Anaeroplasmataceae	genus	2086	Anaeroplasma	species	2088	Anaeroplasma bactoclasticum	
+173053	superkingdom	2	Bacteria	phylum	201174	Actinobacteria	class	1760	Actinobacteria	order	85006	Micrococcales	family	85021	Intrasporangiaceae	genus	99479	Tetrasphaera	species	173053	Tetrasphaera duodecadis	
+2371	superkingdom	2	Bacteria	phylum	1224	Proteobacteria	class	1236	Gammaproteobacteria	order	135614	Xanthomonadales	family	32033	Xanthomonadaceae	genus	2370	Xylella	species	2371	Xylella fastidiosa	
+328515	superkingdom	2	Bacteria	phylum	976	Bacteroidetes	class	117743	Flavobacteriia	order	200644	Flavobacteriales	family	49546	Flavobacteriaceae	genus	363408	Nonlabens	species	328515	Nonlabens dokdonensis	
+404881	superkingdom	2	Bacteria	phylum	1224	Proteobacteria	class	28211	Alphaproteobacteria	order	204455	Rhodobacterales	family	31989	Rhodobacteraceae	genus	1097466	Defluviimonas	species	404881	Defluviimonas denitrificans	
+1004304	superkingdom	2	Bacteria	phylum	976	Bacteroidetes	class	117747	Sphingobacteriia	order	200666	Sphingobacteriales	family	563835	Chitinophagaceae	genus	1004300	Hydrotalea	species	1004304	Hydrotalea sandarakina	
