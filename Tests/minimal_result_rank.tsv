@@ -1,0 +1,10 @@
+# 4 not assigned by participant
+#	tp	fp	tn	fn	tp	fp	tn	fn
+superki	49	0	0	4	1	0	0	4
+phylum	40	8	258	12	3	2	23	2
+class	37	6	425	9	8	0	64	0
+order	29	6	487	8	8	2	88	2
+family	21	4	393	6	7	0	49	0
+genus	14	4	507	5	8	2	88	2
+species	6	2	466	3	6	2	62	2
+total	196	30	2536	47	41	8	374	12
