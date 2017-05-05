@@ -39,6 +39,7 @@ Format of output file
 Name = result_all.tsa
 Format = tab separated text
 Example:
+# 4 not assigned by participant
 #tax_id	tp	fp	tn	fn
 200666	1	0	52	0
 
@@ -49,14 +50,18 @@ Format of output file by rank
 Name = result_rank.tsa
 Format = tab separated text
 Example:
-#	tp	fp	tn	fn
-species	6	2	466	3
-#	tp	fp	tn	fn
-total	196	30	2536	47
+# 4 not assigned by participant
+#	tp	fp	tn	fn	tp	fp	tn	fn
+species	6	2	466	3	6	2	62	2
+total	196	30	2536	47	41	8	374	12
 
+4 sequences were not assigned any tax id.
 tp = true positive -- the participant reports a taxid for a sequence which matches the ground truth at that level of taxonomy.
 fp = false positive -- the participant reports a taxid for a sequence which does not match the ground truth at that level of taxonomy 
 AND the ground truth DOES report a result for that level of taxonomy.
 For example if participant reports Escherichia coli and the ground truth for the sequence is Escherichia, participant gets tp for genus and no result for species.
 tn = true negative -- participant does not report a particular taxid for a sequence and neither does ground truth.
 fn = false negative -- participant does not report a particular taxid for a sequence but the ground truth does.
+
+The first set of tp/fp/tn/fn are from using all levels of taxonomy, the second set is from evaluation only at the level of taxonomy indicated by the taxid.
+If the participant reports E. coli correctly that will give a tp at all levels of taxonomy in the first set, but will only be recorded at species level in the second set.

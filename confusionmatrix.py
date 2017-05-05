@@ -165,26 +165,29 @@ if rank_on:
     result_file2 = open(output_file2, 'w')
     line = "# " + str(num_not_assigned) + " not assigned by participant\n"
     result_file2.write(line)
-    line =  "#\ttp\tfp\ttn\tfn\n"
+    line =  "#\ttp\tfp\ttn\tfn\ttp\tfp\ttn\tfn\n"
     result_file2.write(line)
 
     #total stats
-    total_stats = [0,0,0,0]
+    total_rstats = [0,0,0,0]
+    total_tstats = [0,0,0,0]
     #per tax_id:  tp, fp, tn, fn 
-    tax_stats = dict()
     
     for rank_num in range(len(rank_list)):
         rank_stats = [0,0,0,0]
+        tax_stats = [0,0,0,0] 
         for tax_id in tax_set:
             if rank_cat[tax_id] == rank_num:
-                tax_stats[tax_id] = [0,0,0,0]     
                 #check if participant's assignment to this taxid is correct
                 for seq_id in seq_set:
+                    call_on_level = (rank_cat[partic_dict[seq_id]] == rank_num)
                     if tax_id in rank_set[partic_dict[seq_id]]:
-                        if tax_id in rank_set[gsa_dict[seq_id]]: #tp
+                        if tax_id in rank_set[gsa_dict[seq_id]]:
                             rank_stats[0] += length_dict[seq_id]
-                            tax_stats[tax_id][0] += length_dict[seq_id]
-                            total_stats[0] += length_dict[seq_id]
+                            total_rstats[0] += length_dict[seq_id]
+                            if call_on_level:
+                                tax_stats[0] += length_dict[seq_id]
+                                total_tstats[0] += length_dict[seq_id]
                         else: #fp
                             #determine if any call made in ground truth file
                             called = False
@@ -193,22 +196,27 @@ if rank_on:
                                     called = True
                             if called:
                                 rank_stats[1] += length_dict[seq_id]
-                                tax_stats[tax_id][1] += length_dict[seq_id]
-                                total_stats[1] += length_dict[seq_id]
+                                total_rstats[1] += length_dict[seq_id]
+                                if call_on_level:
+                                    tax_stats[1] += length_dict[seq_id]
+                                    total_tstats[1] += length_dict[seq_id]
                     else:
                         if tax_id in rank_set[gsa_dict[seq_id]]: #fn
                             rank_stats[3] += length_dict[seq_id]
-                            tax_stats[tax_id][3] += length_dict[seq_id]
-                            total_stats[3] += length_dict[seq_id]
+                            total_rstats[3] += length_dict[seq_id]
+                            if call_on_level:
+                                tax_stats[3] += length_dict[seq_id]
+                                total_tstats[3] += length_dict[seq_id]
                         else: #tn
                             rank_stats[2] += length_dict[seq_id]
-                            tax_stats[tax_id][2] += length_dict[seq_id]
-                            total_stats[2] += length_dict[seq_id]
-            
+                            total_rstats[2] += length_dict[seq_id]
+                            if call_on_level:
+                                tax_stats[2] += length_dict[seq_id]
+                                total_tstats[2] += length_dict[seq_id]            
         #output results 
-        line = rank_list[rank_num] + "\t" + "\t".join(map(str,rank_stats)) + "\n"
+        line = rank_list[rank_num] + "\t" + "\t".join(map(str,rank_stats)) + "\t" + "\t".join(map(str,tax_stats)) + "\n"
         result_file2.write(line) 
     
-    line = "total\t" + "\t".join(map(str,total_stats)) + "\n"
+    line = "total\t" + "\t".join(map(str,total_rstats)) + "\t" + "\t".join(map(str,total_tstats)) + "\n"
     result_file2.write(line)
     result_file2.close()
