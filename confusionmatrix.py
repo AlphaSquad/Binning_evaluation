@@ -10,14 +10,14 @@ import argparse
 
 #ground truth input file
 #input_file1 = "./tests/minimal_gsa_with_lengths.tsv"
-input_file1 = "./tests/minimal_gs.tsv"
+input_file1 = "Tests/minimal_gs.tsv"
 #participant responses
-input_file2 = "./tests/minimal_participant.tsv"
+input_file2 = "Tests/minimal_participant.tsv"
 #NCBI taxonomy
-input_file3 = "./tests/minimal_taxonomy.tsv"
+input_file3 = "Tests/minimal_taxonomy.tsv"
 #output of results
-output_file1 = "./tests/minimal_result_all.tsv"
-output_file2 = "./tests/minimal_result_rank.tsv"
+output_file1 = "Tests/minimal_result_all.tsv"
+output_file2 = "Tests/minimal_result_rank.tsv"
 
 if __name__ == '__main__':
     rank_on = False #combine tax_id by taxonomic rank
