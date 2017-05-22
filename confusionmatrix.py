@@ -104,7 +104,7 @@ if rank_on:
                             if rank not in rank_idx:
                                 rank_idx[rank] = len(rank_list)
                                 rank_list.append(rank)
-                            rank_cat[tax_id] = rank_idx[rank]
+                            rank_cat[rank_id] = rank_idx[rank]
                             rank_set[tax_id].add(rank_id)
                             tax_set2.add(rank_id)
     f.close()
